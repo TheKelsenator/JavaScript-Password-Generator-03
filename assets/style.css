@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: rgba(245, 245, 220, 0.171);
 }
 
 .wrapper {
@@ -27,18 +27,18 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: #3b4954;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: #f5f5dc1e;
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  box-shadow: #00000026 0px 2px 8px 0px;
+  color: #3b4954;
   font-size: 18px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 500px;
   padding: 30px 40px;
 }
 
@@ -50,15 +50,18 @@ header {
   height: 2px;
 }
 
-.card-body {
-  min-height: 100px;
-}
-
-.card-footer {
+.card-header h2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-.card-footer::before {
+.card-body {
+  background-color: #f5f5dc2c;
+  min-height: 100px;
+}
+
+.card-body::after {
   content: " ";
   display: block;
   width: 100%;
@@ -66,10 +69,16 @@ header {
   height: 2px;
 }
 
+.card-footer {
+  text-align: center;
+}
+
 .card-footer::after {
   content: " ";
   display: block;
-  clear: both;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
 }
 
 .btn {
@@ -107,7 +116,7 @@ button[disabled] {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
+  padding-bottom: 20px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
