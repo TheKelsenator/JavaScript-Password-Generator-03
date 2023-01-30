@@ -37,6 +37,9 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Screen Shot
 
-![alt_text](./)
+![alt_text](./assets/images/Screenshot%20(17).png)
+![alt_text](./assets/images/Screenshot%20(18).png)
 
 ## Application Link
+
+https://thekelsenator.github.io/buck-the-duchess-03/
