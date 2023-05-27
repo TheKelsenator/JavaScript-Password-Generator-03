@@ -43,3 +43,4 @@ THEN the password is either displayed in an alert or written to the page
 ## Application Link
 
 https://thekelsenator.github.io/JavaScript-Password-Generator-03/
+
