@@ -56,8 +56,8 @@ This password generator empowers employees with access to sensitive data to crea
 
 ## Screenshots
 
-![alt_text](./assets/images/Screenshot%20(17).png)
-![alt_text](./assets/images/Screenshot%20(18).png)
+![alt_text](./assets/images/Screenshot(17).png)
+![alt_text](./assets/images/Screenshot(18).png)
 
 ## Links
 
